@@ -1,0 +1,41 @@
+@font-face{
+	src: url(../fonts/SigmarOne-Regular.ttf);
+	font-family: SigmarOne;
+}
+@font-face{
+	src: url(../fonts/Oswald-VariableFont_wght.ttf);
+	font-family: Oswald-Variable;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.team{
+	width: 33.33%;
+	height: 600px;
+	background-color: black;
+	float: left;
+}
+.team img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	display: block;
+	margin: auto;
+	padding: 50px;
+}
+.team h1{
+	font-family: SigmarOne;
+	text-align: center;
+	margin-bottom: 30px;
+	color: white;
+}
+.team p{
+	width: 83%;
+	font-family: Oswald-Variable;
+	font-size: 18px;
+	color: yellow;
+	text-align: center;
+	margin: auto;
+}
